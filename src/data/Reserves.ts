@@ -1,4 +1,4 @@
-import { TokenAmount, Pair, Currency } from '@eliteswap/sdk'
+import { TokenAmount, Pair, Currency } from '@tunaswap/sdk'
 import { useMemo } from 'react'
 import { abi as IEliteswapV2PairABI } from '@eliteswap/v2-core/build/IEliteswapV2Pair.json'
 import { Interface } from '@ethersproject/abi'

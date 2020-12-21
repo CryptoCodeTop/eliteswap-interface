@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@eliteswap/sdk'
+import { ChainId, TokenAmount } from '@tunaswap/sdk'
 import React, { useMemo } from 'react'
 import { X } from 'react-feather'
 import styled from 'styled-components'

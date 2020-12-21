@@ -1,5 +1,5 @@
 import { ELT } from './../../constants/index'
-import { TokenAmount, JSBI, ChainId } from '@eliteswap/sdk'
+import { TokenAmount, JSBI, ChainId } from '@tunaswap/sdk'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useEffect, useState } from 'react'
 import { useActiveWeb3React } from '../../hooks'

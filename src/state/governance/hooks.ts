@@ -1,5 +1,5 @@
 import { ELT } from './../../constants/index'
-import { TokenAmount } from '@eliteswap/sdk'
+import { TokenAmount } from '@tunaswap/sdk'
 import { isAddress } from 'ethers/lib/utils'
 import { useGovernanceContract, useEltContract } from '../../hooks/useContract'
 import { useSingleCallResult, useSingleContractMultipleData } from '../multicall/hooks'
