@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@tunaswap/sdk'
+import { Currency, ETHER, Token } from '@cryptocode99/sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

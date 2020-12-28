@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent, TokenAmount } from '@tunaswap/sdk'
+import { JSBI, Pair, Percent, TokenAmount } from '@cryptocode99/sdk'
 import { darken } from 'polished'
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'react-feather'
@@ -306,7 +306,7 @@ export default function FullPositionCard({ pair, border, stakedBalance }: Positi
             <ButtonSecondary padding="8px" borderRadius="8px">
               <ExternalLink
                 style={{ width: '100%', textAlign: 'center' }}
-                href={`https://eliteswap.io/info/account/${account}`}
+                href={`https://cryptocode99.io/info/account/${account}`}
               >
                 View accrued fees and analytics<span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>

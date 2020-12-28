@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@tunaswap/sdk'
+import { ChainId, TokenAmount } from '@cryptocode99/sdk'
 import React, { useMemo } from 'react'
 import { X } from 'react-feather'
 import styled from 'styled-components'
@@ -117,7 +117,7 @@ export default function EltBalanceContent({ setShowEltBalanceModal }: { setShowE
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween>
             {elt && elt.chainId === ChainId.MAINNET ? (
-              <ExternalLink href={`https://eliteswap.io/info/token/${elt.address}`}>View ELT Analytics</ExternalLink>
+              <ExternalLink href={`https://cryptocode99.io/info/token/${elt.address}`}>View ELT Analytics</ExternalLink>
             ) : null}
           </AutoColumn>
         </CardSection>

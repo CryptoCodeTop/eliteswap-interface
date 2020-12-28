@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
-import { abi as STAKING_REWARDS_ABI } from '@eliteswap/liquidity-staker/build/EliteStakingRewards.json'
-import { abi as STAKING_REWARDS_FACTORY_ABI } from '@eliteswap/liquidity-staker/build/EliteStakingRewardsFactory.json'
+import { abi as STAKING_REWARDS_ABI } from '@cryptocode99/liquidity-staker/build/EliteStakingRewards.json'
+import { abi as STAKING_REWARDS_FACTORY_ABI } from '@cryptocode99/liquidity-staker/build/EliteStakingRewardsFactory.json'
 
 const STAKING_REWARDS_INTERFACE = new Interface(STAKING_REWARDS_ABI)
 

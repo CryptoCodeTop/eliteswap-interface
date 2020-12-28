@@ -1,5 +1,5 @@
 import { isAddress } from '../../utils'
-import { Token } from '@tunaswap/sdk'
+import { Token } from '@cryptocode99/sdk'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {
   if (search.length === 0) return tokens

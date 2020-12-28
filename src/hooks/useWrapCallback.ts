@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, ETHER, WETH } from '@tunaswap/sdk'
+import { Currency, currencyEquals, ETHER, WETH } from '@cryptocode99/sdk'
 import { useMemo } from 'react'
 import { tryParseAmount } from '../state/swap/hooks'
 import { useTransactionAdder } from '../state/transactions/hooks'

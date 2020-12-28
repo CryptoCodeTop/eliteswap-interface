@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@tunaswap/sdk'
+import { Token, TokenAmount } from '@cryptocode99/sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

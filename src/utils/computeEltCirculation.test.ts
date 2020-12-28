@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Token, TokenAmount } from '@tunaswap/sdk'
+import { ChainId, JSBI, Token, TokenAmount } from '@cryptocode99/sdk'
 import { BigNumber } from 'ethers'
 import { ZERO_ADDRESS } from '../constants'
 import { computeEltCirculation } from './computeEltCirculation'

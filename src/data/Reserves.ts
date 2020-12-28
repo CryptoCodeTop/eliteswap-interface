@@ -1,6 +1,6 @@
-import { TokenAmount, Pair, Currency } from '@tunaswap/sdk'
+import { TokenAmount, Pair, Currency } from '@cryptocode99/sdk'
 import { useMemo } from 'react'
-import { abi as IEliteswapV2PairABI } from '@eliteswap/v2-core/build/IEliteswapV2Pair.json'
+import { abi as IEliteswapV2PairABI } from '@cryptocode99/v2-core/build/IEliteswapV2Pair.json'
 import { Interface } from '@ethersproject/abi'
 import { useActiveWeb3React } from '../hooks'
 

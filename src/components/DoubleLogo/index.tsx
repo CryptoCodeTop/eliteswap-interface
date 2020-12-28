@@ -1,4 +1,4 @@
-import { Currency } from '@tunaswap/sdk'
+import { Currency } from '@cryptocode99/sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

@@ -1,4 +1,4 @@
-import { JSBI, Token, TokenAmount } from '@tunaswap/sdk'
+import { JSBI, Token, TokenAmount } from '@cryptocode99/sdk'
 import { BigNumber } from 'ethers'
 import { STAKING_GENESIS } from '../state/stake/hooks'
 

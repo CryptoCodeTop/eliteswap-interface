@@ -1,4 +1,4 @@
-import { ChainId } from '@tunaswap/sdk'
+import { ChainId } from '@cryptocode99/sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

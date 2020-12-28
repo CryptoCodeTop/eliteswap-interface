@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@tunaswap/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@cryptocode99/sdk'
 import { MIN_ETH } from '../constants'
 
 /**

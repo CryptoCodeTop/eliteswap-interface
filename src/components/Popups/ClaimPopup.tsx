@@ -1,4 +1,4 @@
-import { TokenAmount } from '@tunaswap/sdk'
+import { TokenAmount } from '@cryptocode99/sdk'
 import React, { useEffect } from 'react'
 import { X } from 'react-feather'
 import styled, { keyframes } from 'styled-components'

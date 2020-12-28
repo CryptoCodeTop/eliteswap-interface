@@ -4,7 +4,7 @@ import {
   TokenAmount,
   Trade,
   WETH
-} from '@tunaswap/sdk'
+} from '@cryptocode99/sdk'
 import { Version } from '../hooks/useToggledVersion'
 
 export class MockV1Pair extends Pair {

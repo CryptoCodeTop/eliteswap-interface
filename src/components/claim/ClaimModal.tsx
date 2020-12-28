@@ -1,4 +1,4 @@
-import { JSBI, TokenAmount } from '@tunaswap/sdk'
+import { JSBI, TokenAmount } from '@cryptocode99/sdk'
 import { isAddress } from 'ethers/lib/utils'
 import React, { useEffect, useState } from 'react'
 import { Text } from 'rebass'

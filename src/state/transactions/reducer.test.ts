@@ -1,4 +1,4 @@
-import { ChainId } from '@tunaswap/sdk'
+import { ChainId } from '@cryptocode99/sdk'
 import { createStore, Store } from 'redux'
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'

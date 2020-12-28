@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@tunaswap/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@cryptocode99/sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

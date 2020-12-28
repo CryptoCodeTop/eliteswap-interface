@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@tunaswap/sdk'
-import { Tags, TokenInfo, TokenList } from '@eliteswap/token-lists'
+import { ChainId, Token } from '@cryptocode99/sdk'
+import { Tags, TokenInfo, TokenList } from '@cryptocode99/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { AppState } from '../index'

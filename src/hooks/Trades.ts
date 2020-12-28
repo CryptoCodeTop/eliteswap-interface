@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@tunaswap/sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from '@cryptocode99/sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@tunaswap/sdk'
+import { ChainId, TokenAmount } from '@cryptocode99/sdk'
 import React, { useState } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'
@@ -318,7 +318,7 @@ export default function Header() {
           <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
             Vote
           </StyledNavLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://eliteswap.io/info'}>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://cryptocode99.io/info'}>
             Charts <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
         </HeaderLinks>

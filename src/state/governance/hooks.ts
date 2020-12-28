@@ -1,5 +1,5 @@
 import { ELT } from './../../constants/index'
-import { TokenAmount } from '@tunaswap/sdk'
+import { TokenAmount } from '@cryptocode99/sdk'
 import { isAddress } from 'ethers/lib/utils'
 import { useGovernanceContract, useEltContract } from '../../hooks/useContract'
 import { useSingleCallResult, useSingleContractMultipleData } from '../multicall/hooks'
@@ -9,7 +9,7 @@ import { calculateGasMargin } from '../../utils'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useTransactionAdder } from '../transactions/hooks'
 import { useState, useEffect, useCallback } from 'react'
-import { abi as GOV_ABI } from '@eliteswap/governance/build/EliteGovernorAlpha.json'
+import { abi as GOV_ABI } from '@cryptocode99/governance/build/EliteGovernorAlpha.json'
 
 interface ProposalDetail {
   target: string

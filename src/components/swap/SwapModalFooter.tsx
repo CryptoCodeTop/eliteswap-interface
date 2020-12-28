@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@tunaswap/sdk'
+import { Trade, TradeType } from '@cryptocode99/sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

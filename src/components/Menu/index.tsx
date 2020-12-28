@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/EthereumEliteswap/eliteswap-interface'
+const CODE_LINK = 'https://github.com/cryptocode99/cryptocode99-interface'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -113,15 +113,15 @@ export default function Menu() {
             <MessageCircle size={14} />
             Discord
           </MenuItem>
-          <MenuItem id="link" href="https://telegram.org/@EliteSwap">
+          <MenuItem id="link" href="https://telegram.org/@cryptocode99">
             <PieChart size={14} />
             Telegram
           </MenuItem>
-          <MenuItem id="link" href="https://twitter.com/EliteSwap2020?s=09">
+          <MenuItem id="link" href="https://twitter.com/cryptocode99?s=09">
             <Twitter size={14} />
             Twitter
           </MenuItem>
-          <MenuItem id="link" href="https://eliteswap.io/info">
+          <MenuItem id="link" href="https://cryptocode99.io/info">
             <PieChart size={14} />
             Analytics
           </MenuItem>
